@@ -60,6 +60,18 @@
     <Compile Include="Assets\Code\Models\NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\Alien.shader" />
+     <None Include="Assets\3D Game Kit - Environment Pack\Shaders\Rock.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeLash.shader" />
+     <None Include="Assets\3D Game Kit - Environment Pack\Shaders\Vegetation.shader" />
+     <None Include="Assets\3D Game Kit - Environment Pack\Shaders\GroundCover.shader" />
+     <None Include="Assets\3D Game Kit - Environment Pack\Shaders\Terrain.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeBallsHD.shader" />
+     <None Include="Assets\NotForGit\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
+     <None Include="Assets\3D Game Kit - Character Pack\Shaders\Dissolve.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -662,6 +674,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NewAssembly.csproj">
+      <Project>{E74976BB-2B4E-5C14-4190-731D5792B1DF}</Project>
+      <Name>NewAssembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
